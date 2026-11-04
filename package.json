@@ -1,0 +1,13 @@
+{
+  "name": "maru-house-search",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "demo": "node --env-file-if-exists=.env scripts/demo.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": { "google-auth-library": "^10.0.0" }
+}
